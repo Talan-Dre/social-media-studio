@@ -1,0 +1,7 @@
+run: "docker compose up"
+seed: "npm run seed"
+test: "npm test"     
+base_url: "http://localhost:3000"
+endpoints:
+  publish: "/api/publish"
+  webhook: "/webhook/social-delivery"
